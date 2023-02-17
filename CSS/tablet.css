@@ -1,0 +1,20 @@
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+    
+    .Our-Team {
+        padding-top: 96px;
+        padding-bottom: 104px;
+    }
+
+    .container-small {
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+
+    .Our-Team-list {
+        row-gap: 64px;
+        column-gap: 24px;
+    }
+}

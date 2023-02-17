@@ -1,0 +1,26 @@
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .container-small {
+        padding-left: 156px;
+        padding-right: 156px;
+    }
+
+    .Our-Team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .Our-Team-list {
+        gap: 24px;
+
+    }
+
+/* .team-item {
+    width: calc((100%-72px) /4);
+} */
+
+
+}
