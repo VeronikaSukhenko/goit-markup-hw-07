@@ -1,35 +1,68 @@
 @media screen and (min-width:1200px) {
     .container {
-        max-width: 1200px;
+        max-width: 1158px;
     }
 
-    .container-small {
-        padding-left: 156px;
-        padding-right: 156px;
+    /* HEADER */
+
+    .logo {
+            margin-right: 76px;
+        }
+
+    .menu-list {
+            display: flex;
+            align-items: center;
+            }
+        
+    .header-contacts {
+            display: flex;
+            align-items: center;
+            }
+        
+    .mailto {
+            margin-right: 40px;
+            }
+
+    .menu-link{
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+position: relative;
+display: inline-block;
+transition: color var(--transition);
+
+}
+
+.menu-item:not(:last-child){
+margin-right: 40px;
+}
+
+.mobile-menu-open {
+    display: none;
     }
+
+    
+    /* Our-Team */
 
     .Our-Team {
         padding-top: 120px;
         padding-bottom: 120px;
-    }
-
+        }
     .Our-Team-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 
     }
+    
 
-/* Our-Features */
+    /* Our-features */
 
     .Our-features-list{
-        display: flex;
         flex-wrap: nowrap;
     }
-
-    .Our-features-list :not(:last-child) {
-        margin-right: 24px;
-    } 
         
     .features-icon{
     display: flex;
@@ -42,4 +75,17 @@
     height: 112px;
     }
 
+    /* Customers */
+
+    .customers-logo-list{
+    display: flex;
+    gap: 24px;
+    }
+
+}
+
+@media (max-width:1199px) {
+    .Projects{
+        display: none;
+    }
 }

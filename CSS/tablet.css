@@ -3,6 +3,24 @@
         max-width: 768px;
     }
     
+    .logo{
+        margin-right: 123px;
+    }
+
+    .header-contacts{
+        margin-left: 118px;
+    }
+    
+    .mobile-menu-open{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: none;
+    }
+
+    /* Our-Team */
+
     .Our-Team {
         padding-top: 96px;
         padding-bottom: 104px;
@@ -18,6 +36,8 @@
         column-gap: 24px;
     }
 
+    /* Our-Features */
+    
     .Our-features-list{
         display: flex;
         flex-wrap: wrap;
