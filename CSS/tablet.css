@@ -17,4 +17,16 @@
         row-gap: 64px;
         column-gap: 24px;
     }
+
+    .Our-features-list{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+
+    .studio-list{
+    flex-basis: calc((100% - 24px) / 2);
+    }
 }
+

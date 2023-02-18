@@ -14,13 +14,32 @@
     }
 
     .Our-Team-list {
-        gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 
     }
 
-/* .team-item {
-    width: calc((100%-72px) /4);
-} */
+/* Our-Features */
 
+    .Our-features-list{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .Our-features-list :not(:last-child) {
+        margin-right: 24px;
+    } 
+        
+    .features-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
+    }
 
 }
