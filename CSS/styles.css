@@ -69,6 +69,7 @@ padding-bottom: 120px;
 display: block;
 max-width: 100%;
 height: auto;
+width: 100%;
 }
 
 /* COMPONENTS */
@@ -189,7 +190,7 @@ color: #404BBF;
 color: #4D5AE5;
 }
 
-.current {
+/* .current {
     color: #404BBF;
     position: relative;
 }
@@ -203,7 +204,7 @@ left: 0;
 bottom: -24px;
 background: #404BBF;
 border-radius: 2px;
-}
+} */
 
 
 
@@ -225,16 +226,10 @@ margin-left: auto;
 
 /* !!!!!!!!!HERO!!!!!!!!!!! */
 
-.hero-container{
-    display: flex;
-    padding: 0;
-    max-width: 100%;
-}
-
 .hero{
 background-color: #2E2F42;
 max-width: 1440px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office.png);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/Dark-bg-mobile.jpg);
 background-repeat: no-repeat;
 background-position: center;
 
@@ -242,18 +237,31 @@ text-align: center;
 margin-left: auto;
 margin-right: auto;
 padding-top: 112px;
-padding-bottom: 240px;
+padding-bottom:112px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.hero {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mobile-2x.jpg);
+}
+}
+
+.hero-container {
+    padding: 0;
+    max-width: 100%;
 }
 
 
 
 .title{
 font-weight: 700;
-font-size: 56px;
-line-height: 60px;
+font-size: 36px;
+line-height: 1.11;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-max-width: 500px;
+max-width: 320px;
 margin: 0 auto;
 margin-bottom: 72px;
 }
@@ -581,11 +589,6 @@ padding-bottom: 100px;
 
 }
 
-.footer-container{
-display: flex;
-align-items: baseline;
-}
-
 .logo-futer {
 font-family: 'Raleway';
 font-weight: 800;
@@ -598,7 +601,9 @@ color: #F4F4FD;
 }
 
 .futer-main-content{
-    margin-right: 120px;
+    text-align: center;
+    padding-bottom: 72px;
+
 }
 
 .futer-content{
@@ -609,17 +614,19 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
-width: 264px;
 margin-top: 16px;
+text-align: left;
 }
 
 .futer-social{
-    margin-right: 80px;
+    padding-bottom: 72px;
+    text-align: center;
 }
 
 .social-links{
-display: flex;
-gap: 16px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
 }
 
 .footer-header{
@@ -659,6 +666,10 @@ display: flex;
 justify-content: center;
 }
 
+.futer-subscribe{
+    text-align: center;
+}
+
 
 .footer-subscribe-header{
     font-weight: 500;
@@ -669,27 +680,25 @@ justify-content: center;
     margin-bottom: 16px;
 }
 
-.footer-form {
-    display: flex;
-    align-items: center;
-}
 .futer-input{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #8E8F99;
-min-width: 264px;
-height: 40px;
-padding-top: 8px;
-padding-right: 16px;
-padding-bottom: 8px;
-padding-left: 16px;
-margin-right: 24px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-border-radius: 4px;
-background-color: transparent;
-transition: border-color var(--transition);
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #8E8F99;
+        width: 100%;
+        height: 100%;
+        padding-top: 8px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        margin-right: 24px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        background-color: transparent;
+        transition: border-color var(--transition);
+        margin-bottom: 16px;
 }
+
 
 .footer-input::placeholder {
     font-size: 12px;
@@ -726,6 +735,8 @@ background: #404BBF;
 .futer-icon-subscribe{
     fill: #FFFFFF;
 }
+
+
 
 /* !!!!!!!!!!MODAL WINDOW!!!!!!!! */
 

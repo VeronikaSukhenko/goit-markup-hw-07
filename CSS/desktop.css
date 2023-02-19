@@ -43,7 +43,19 @@ margin-right: 40px;
     display: none;
     }
 
-    
+    /* HERO */
+
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.title {
+    font-size: 56px;
+    line-height: 1.071;
+    max-width: 500px;
+    margin-bottom: 48px;
+}
     /* Our-Team */
 
     .Our-Team {
@@ -81,6 +93,37 @@ margin-right: 40px;
     display: flex;
     gap: 24px;
     }
+
+
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+.futer-main-content {
+    margin-right: 120px;
+}
+
+.futer-social {
+    margin-right: 80px;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+}
+
+.futer-input {
+    min-width: 264px;
+    height: 40px;
+    
+}
+
 
 }
 
