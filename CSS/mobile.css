@@ -53,7 +53,9 @@
         }
         
         .mobile-menu-close {
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             margin-left: auto;
             padding: 0;
             width: 24px;
@@ -63,6 +65,11 @@
             border: 1px solid rgba(0, 0, 0, 0.1);
             transition: background-color var(--transition);
             }
+
+        .mobile-menu-close:hover,
+        .mobile-menu-close:focus {
+            background: #404BBF;
+        }
         
         .mobile-menu-link {
         
