@@ -456,7 +456,7 @@ border-radius: 4px;
 
 
 .customers-item {
-width: 168px;
+    flex-basis: calc((100% - 16px) / 2);
 }
 
 .customers-icon{
@@ -624,6 +624,7 @@ letter-spacing: 0.02em;
 color: #E7E9FC;
 margin-top: 16px;
 text-align: left;
+width: 264px;
 }
 
 .futer-social{
@@ -704,7 +705,6 @@ justify-content: center;
         border-radius: 4px;
         background-color: transparent;
         transition: border-color var(--transition);
-        margin-bottom: 16px;
 }
 
 

@@ -126,9 +126,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/Dark-bg-tablet.jpg);
 }
 
-.customers-item {
-    width: 190px;
-    height: 88px;
+
+.futer-input{
+    margin-bottom: 16px;
 }
 }
 
