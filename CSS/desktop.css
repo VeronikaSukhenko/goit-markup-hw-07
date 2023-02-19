@@ -87,6 +87,14 @@ margin-right: 40px;
     height: 112px;
     }
 
+    .content{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            color: #434455;
+    }
+
     /* Customers */
 
     .customers-logo-list{
@@ -101,6 +109,10 @@ margin-right: 40px;
 
     /* FUTER */
 
+.Futer{
+padding-top: 100px;
+padding-bottom: 100px;
+}
 .footer-container {
     display: flex;
     align-items: baseline;

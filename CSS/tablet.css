@@ -105,13 +105,13 @@
 .footer-input{
     height: 40px;
 }
+
+.footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 582px;
+    justify-content: start;
+    align-items: normal;
 }
-
-
-@media screen and (max-width:1199px) {
-    .container-small {
-            /* padding-left: 108px;
-            padding-right: 108px; */
-        }
-    }
+}
 
