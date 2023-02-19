@@ -70,6 +70,14 @@
         .mobile-menu-close:focus {
             background: #404BBF;
         }
+
+        .close-icon {
+                transition: fill var(--transition);
+            }
+        .mobile-menu-close:hover .close-icon,
+        .mobile-menu-close:focus .close-icon {
+                fill: #FFFFFF;
+            }
         
         .mobile-menu-link {
         
@@ -124,6 +132,11 @@
                     
                     transition: background-color var(--transition)
                 }
+
+        .mobile-social-link:hover,
+        .mobile-social-link:focus{
+            background-color: #404BBF
+        }
 
         .hero-container {
             max-width: 100%;
