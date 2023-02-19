@@ -9,9 +9,6 @@
         margin-right: 123px;
     }
 
-    .header-contacts{
-        margin-left: 118px;
-    }
     
     .mobile-menu-open{
         display: none;
@@ -78,7 +75,7 @@
 .footer-container {
     display: flex;
     align-items: baseline;
-    
+
 }
 }
 
