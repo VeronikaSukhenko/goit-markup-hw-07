@@ -180,13 +180,19 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 
 .futer-main-content {
     text-align: center;
+    padding-bottom: 72px;
+    }
 
+        .futer-input {
+            margin-bottom: 16px;
+        }
+
+        .futer-social {
+    padding-bottom: 72px;
+    text-align: center;
+}
 }
 
-.futer-input{
-    margin-bottom: 16px;
-}
-}
 
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),

@@ -87,7 +87,6 @@
     flex-basis: calc((100% - 6 * 30px) / 3);
 }
 
-
 .footer-container {
     display: flex;
     align-items: baseline;
@@ -124,6 +123,10 @@
     max-width: 582px;
     justify-content: start;
     align-items: normal;
+}
+
+.futer-social {
+    padding-bottom: 72px;
 }
 }
 

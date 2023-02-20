@@ -571,11 +571,6 @@ text-transform: uppercase;
 color: #F4F4FD;
 }
 
-.futer-main-content{
-    padding-bottom: 72px;
-
-}
-
 .futer-content{
 font-size: 16px;
 line-height: 24px;
@@ -587,11 +582,6 @@ color: #E7E9FC;
 margin-top: 16px;
 text-align: left;
 width: 264px;
-}
-
-.futer-social{
-    padding-bottom: 72px;
-    text-align: center;
 }
 
 .social-links{
