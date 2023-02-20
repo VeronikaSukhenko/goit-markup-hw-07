@@ -9,6 +9,18 @@
         margin-right: 123px;
     }
 
+    .menu-link {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        position: relative;
+        display: inline-block;
+        transition: color var(--transition);
+        
+                }
+
     
     .mobile-menu-open{
         display: none;

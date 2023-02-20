@@ -51,6 +51,15 @@
         flex-direction: column;
         justify-content: space-between;
         }
+
+
+    .mobile-menu-open {
+                    background-color: transparent;
+                    border: none;
+                    padding: 0;
+                    stroke: #2E2F42;
+                    height: 22px;
+                }
         
         .mobile-menu-close {
             display: flex;
@@ -100,10 +109,21 @@
         .mobile-contact {
             font-weight: 500;
             font-size: 20px;
-            line-height: 24px;
+            line-height: 1.2;
             letter-spacing: 0.02em;
             color: #434455;
             transition: color var(--transition);
+            }
+
+            .mobile-tel{
+                font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 1.11;
+                    letter-spacing: 0.02em;
+                    text-transform: capitalize;
+                    color: #4D5AE5;
             }
 
         .mobile-contact:hover{
@@ -116,13 +136,6 @@
         
         .mobile-social-link {
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 40px;
-                    height: 40px;
-                    border-radius: 50%;
-                    background-color: #4D5AE5;
-                    transition: background-color var(--transition);
                     justify-content: center;
                     align-items: center;
                     width: 40px;
