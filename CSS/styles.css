@@ -50,7 +50,6 @@ color:#2E2F42;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
 .container{
 width: 100%;
 margin-left: auto;
@@ -557,10 +556,6 @@ background-color:#2E2F42;
 
 padding-top: 96px;
 padding-bottom: 96px;
-}
-
-.futer-social{
-    margin-bottom: 72px;
 }
 
 .logo-futer {
