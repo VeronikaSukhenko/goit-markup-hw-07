@@ -597,7 +597,7 @@ width: 264px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #E7E9FC;
+color: #FFFFFF;
 
 margin-bottom: 16px;
 }
@@ -632,6 +632,11 @@ justify-content: center;
 
 .futer-subscribe{
     text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-header{
+    color: ffffff;
 }
 
 
