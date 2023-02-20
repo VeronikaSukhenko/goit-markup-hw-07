@@ -304,8 +304,8 @@ height: 112px;
 .Our-Features-heading{
     text-align: center;
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
+    font-size: 36px;
+    line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -557,7 +557,10 @@ background-color:#2E2F42;
 
 padding-top: 96px;
 padding-bottom: 96px;
+}
 
+.futer-social{
+    margin-bottom: 72px;
 }
 
 .logo-futer {
@@ -652,7 +655,6 @@ justify-content: center;
         padding-right: 16px;
         padding-bottom: 8px;
         padding-left: 16px;
-        margin-right: 24px;
         border: 1px solid rgba(255, 255, 255, 0.3);
         border-radius: 4px;
         background-color: transparent;

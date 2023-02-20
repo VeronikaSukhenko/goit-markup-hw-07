@@ -18,7 +18,12 @@
             display: flex;
             align-items: center;
             }
-        
+    
+    .contact {
+    font-size: 16px;
+    line-height: 1.5;
+        }
+
     .mailto {
             margin-right: 40px;
             }
@@ -75,6 +80,13 @@ margin-right: 40px;
     height: 112px;
     }
 
+        .Our-Features-heading{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: left;
+        }
+
     .content{
             font-weight: 400;
             font-size: 16px;
@@ -123,8 +135,6 @@ margin-right: 40px;
 
 .futer-input {
     min-width: 264px;
-    height: 40px;
-    
 }
 
 

@@ -2,8 +2,6 @@
     .container {
         max-width: 768px;
     }
-
-        
     
     .logo{
         margin-right: 123px;
@@ -18,8 +16,13 @@
         position: relative;
         display: inline-block;
         transition: color var(--transition);
+        }
         
-                }
+    .contact{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;}
+
 
     
     .mobile-menu-open{
@@ -79,6 +82,10 @@
         column-gap: 24px;
     }
 
+.Our-Features-heading{
+    text-align: left;
+}
+
     .studio-list{
     flex-basis: calc((100% - 24px) / 2);
     }
@@ -113,8 +120,9 @@
     display: flex;
 }
 
-.footer-input{
+.futer-input{
     height: 40px;
+    margin-right: 24px;
 }
 
 .footer-container {
@@ -126,7 +134,9 @@
 }
 
 .futer-social {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 }
+
+
 

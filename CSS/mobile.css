@@ -18,6 +18,10 @@
 
 @media screen and (max-width:767px){
 
+    .futer-input{
+        margin-bottom: 16px;
+    }
+
     .menu-list {
             display: none;
         }
@@ -180,17 +184,9 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 
 .futer-main-content {
     text-align: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     }
 
-        .futer-input {
-            margin-bottom: 16px;
-        }
-
-        .futer-social {
-    padding-bottom: 72px;
-    text-align: center;
-}
 }
 
 
