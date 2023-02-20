@@ -4,9 +4,20 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .modal{
+        width: 408px;
+    }
+
+    .check-text{
+    font-size: 12px;
+    }
 }
 
+
+
 @media screen and (max-width:767px){
+
     .menu-list {
             display: none;
         }
@@ -183,10 +194,5 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tablet-2x.jpg);
     }
-}
-
-
-.modal{
-    width: 408px;
 }
 
